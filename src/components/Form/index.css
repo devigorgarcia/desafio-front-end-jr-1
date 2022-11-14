@@ -1,0 +1,67 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.formContainer > h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: rgb(68, 67, 67);
+}
+
+.formSale {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.labelSale {
+  font-size: 16px;
+  color: #777676;
+}
+.inputSale {
+  padding: 0.5rem;
+  width: 80vw;
+  max-width: 350px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submitButton {
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .formContainer {
+    height: 100%;
+    width: 100%;
+  }
+
+  .formContainer > h1 {
+  }
+
+  .formSale {
+  }
+  .labelSale {
+  }
+  .inputSale {
+  }
+
+  .submitButton {
+  }
+}
